@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.slanted {
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+}
+
+header {
+  color: white;
+}
+
+header img {
+  z-index: 1000;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  background-color: #27284a;
+  padding: 20px;
+  height: 30%;
+}
+
+header nav {
+  position: absolute;
+  z-index: 50000;
+  right: 20px;
+  background-color: #27284a;
+  padding: 10px;
+  font-size: 14pt;
+  font-family: monospace;
+  top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#header-slant {
+  background-color: #27284a;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+
+  padding: 10px;
+  padding-top: 50px;
+}
+
+#header-image img {
+  position: fixed;
+  height: 110%;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+}
+
+#content-one {
+  color: white;
+  font-size: 18pt;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+.social {
+  height: 16px;
+  width: 16px;
+  margin-top: 10px;
+}
+
+#social-bar {
+  z-index: 50000;
+  position: fixed;
+  top: 50%;
+  right: 30px;
+}
+
+.facebook {
+  background: url(https://static1.squarespace.com/static/58547beee3df28499695bf42/t/58703fb41b10e3b7756bb7cd/1483751348731/social-sprite.png) 0 64px;
+}
+
+.instagram {
+  background: url(https://static1.squarespace.com/static/58547beee3df28499695bf42/t/58703fb41b10e3b7756bb7cd/1483751348731/social-sprite.png) 48px 64px;
+}
+
+.twitter {
+  background: url(https://static1.squarespace.com/static/58547beee3df28499695bf42/t/58703fb41b10e3b7756bb7cd/1483751348731/social-sprite.png) 64px 64px;
+}
+
+.line {
+  width: 2px;
+  background-color: black;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+#content-inner {
+  width: 75%;
+}
+
+.content-panel {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 14pt;
+}
+
+.content-panel img {
+  margin-top: 10px;
+  width: 50%;
+}
