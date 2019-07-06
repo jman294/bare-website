@@ -17,7 +17,6 @@ header img {
   top: 30px;
   left: 30px;
 
-  background-color: #27284a;
   padding: 20px;
   height: 30%;
 }
@@ -26,16 +25,25 @@ header nav {
   position: absolute;
   z-index: 50000;
   right: 20px;
-  background-color: #27284a;
   padding: 10px;
   font-size: 14pt;
   font-family: monospace;
   top: 30px;
 }
 
+nav img {
+  z-index: 10000000;
+  position: relative;
+  height: 20px;
+  top: 0px;
+  padding: 0;
+  padding-right: 10px;
+  display: inline;
+}
+
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 #header-slant {
@@ -105,6 +113,7 @@ h2 {
 
 #content-inner {
   width: 75%;
+  max-width: 500px;
 }
 
 .content-panel {
@@ -116,4 +125,5 @@ h2 {
 .content-panel img {
   margin-top: 10px;
   width: 50%;
+  max-width: 300px;
 }
