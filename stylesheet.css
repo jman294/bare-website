@@ -47,7 +47,7 @@ a {
 }
 
 #header-slant {
-  background-color: #27284a;
+  background-color: #7cc5e6;
   position: absolute;
   top: 110%;
   left: 0;
@@ -59,9 +59,9 @@ a {
 
 #header-image img {
   position: fixed;
-  height: 110%;
+  height: 80%;
   left: 50%;
-  top: 0;
+  top: 10%;
   transform: translate(-50%, 0%);
 }
 
